@@ -17,10 +17,11 @@ Build Status
 .. image:: https://travis-ci.org/netz98/n98-magerun2.png?branch=develop
 :target: https://travis-ci.org/netz98/n98-magerun2
 
-Compatibility
+Compatibility / Prerequisites
 -------------
 The tools will automatically be tested for multiple PHP versions (5.4, 5.5). It's currently running in various Linux distributions and Mac OS X.
 Microsoft Windows is not fully supported (some Commands like `db:dump` or `install` are excluded).
+Before running these tools, you need to get the [authentication keys for Magento Connect](http://devdocs.magento.com/guides/v2.0/install-gde/prereq/connect-auth.html). It's best to place these in the `auth.json` in your composer home directory.
 
 Installation
 ------------
